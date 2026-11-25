@@ -1,0 +1,17 @@
+{
+  "name": "p2r-lumina-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private credential-holding proxy for Lumina Adventure's P2R API integration",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
